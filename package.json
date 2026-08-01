@@ -34,7 +34,8 @@
     "index.mjs",
     "index.cjs",
     "index.d.ts",
-    "stylelint-config.svg"
+    "stylelint-config.svg",
+    "LICENSE"
   ],
   "publishConfig": {
     "access": "public"
