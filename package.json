@@ -1,0 +1,52 @@
+{
+  "name": "@sebastienrousseau/stylelint-config",
+  "version": "1.0.0",
+  "description": "Shareable Stylelint CSS/SCSS linting configuration rules",
+  "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/sebastienrousseau/stylelint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastienrousseau/stylelint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sebastienrousseau/stylelint-config/issues"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "css",
+    "scss",
+    "linter"
+  ],
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node test/test.js",
+    "lint": "node test/test.js"
+  },
+  "peerDependencies": {
+    "stylelint": ">=16.0.0"
+  },
+  "devDependencies": {
+    "stylelint": "^16.0.0",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}
