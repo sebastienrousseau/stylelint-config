@@ -1,7 +1,7 @@
 <!-- SPDX-License-Identifier: ISC -->
 
 <p align="center">
-  <img src="https://cloudcdn.pro/stylelint-config/v1/logos/stylelint-config.svg" alt="stylelint-config logo" width="128" />
+  <img src="./stylelint-config.svg" alt="stylelint-config logo" width="128" />
 </p>
 
 <h1 align="center">@sebastienrousseau/stylelint-config</h1>
