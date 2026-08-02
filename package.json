@@ -49,7 +49,7 @@
     "stylelint": ">=16.0.0"
   },
   "devDependencies": {
-    "stylelint": "^16.0.0",
+    "stylelint": "^17.14.1",
     "stylelint-config-standard": "^36.0.0"
   }
 }
