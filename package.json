@@ -1,6 +1,6 @@
 {
   "name": "@sebastienrousseau/stylelint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Shareable Stylelint CSS/SCSS linting configuration rules",
   "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
   "license": "ISC",
