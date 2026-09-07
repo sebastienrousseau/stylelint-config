@@ -1,7 +1,7 @@
 site_name = "stylelint-config"
 site_title = "@sebastienrousseau/stylelint-config — Shareable Stylelint CSS/SCSS linting configuration rules"
 site_description = "Shareable Stylelint CSS/SCSS linting configuration rules"
-base_url = "https://config.sebastienrousseau.com/stylelint-config"
+base_url = "https://sebastienrousseau.com/stylelint-config/"
 language = "en-GB"
 
 content_dir = "web/content"
