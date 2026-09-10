@@ -1,15 +1,14 @@
+// SPDX-FileCopyrightText: 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com>
+// SPDX-License-Identifier: Apache-2.0 OR MIT
+
 /**
- * Modern Stylelint ESM Configuration
+ * ESM entrypoint.
+ *
+ * The configuration is defined once, in `index.cjs`, and re-exported here so the
+ * two module systems cannot drift apart. Node resolves a CommonJS default import
+ * to `module.exports`, which is exactly the value consumers of the CJS entry get.
  */
-export default {
-  extends: ["stylelint-config-standard"],
-  rules: {
-    "color-hex-length": "short",
-    "color-named": "never",
-    "declaration-block-no-duplicate-properties": true,
-    "indentation": 2,
-    "max-empty-lines": 1,
-    "no-empty-source": true,
-    "string-quotes": "double"
-  }
-};
+
+import config from "./index.cjs";
+
+export default config;
