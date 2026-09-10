@@ -22,17 +22,22 @@ An exhaustive overview covering **100% of the features, rules, and capabilities*
 ## Feature Deep Dive
 
 ### 1. Standard Preset Base
+
 Extends stylelint-config-standard baseline. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 2. Hex Code Length
+
 Enforces short 3-character hex color codes (`color-hex-length: short`). Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 3. Named Color Prohibition
+
 Prohibits named colors in favor of deterministic hex tokens. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 4. Indentation Control
+
 Enforces strict 2-space CSS rule indentation. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 5. Quote Consistency
+
 Enforces double quotes throughout stylesheet properties. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
