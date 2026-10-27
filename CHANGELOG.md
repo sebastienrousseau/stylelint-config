@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Security
+
+- `package-lock.json` moves fast-uri 3.1.7 to 3.1.9 and source-map-js 1.2.1 to 1.2.2 (Dependabot alerts: high, moderate).
+
 ## [0.0.7] - 2026-09-10
 
 ### Added
