@@ -17,7 +17,7 @@
   <a href="https://scorecard.dev/viewer/?uri=github.com/sebastienrousseau/stylelint-config"><img src="https://img.shields.io/ossf-scorecard/github.com/sebastienrousseau/stylelint-config?style=for-the-badge&label=OpenSSF%20Scorecard&logo=openssf" alt="OpenSSF Scorecard" /></a>
   <a href="https://www.bestpractices.dev/projects/14520"><img src="https://img.shields.io/cii/level/14520?style=for-the-badge&label=OpenSSF%20Best%20Practices&logo=openssf" alt="OpenSSF Best Practices" /></a>
   <a href="LICENSE-APACHE"><img src="https://img.shields.io/badge/license-Apache--2.0%20OR%20MIT-blue.svg?style=for-the-badge" alt="License: Apache-2.0 OR MIT" /></a>
-  <a href="#minimum-toolchain-policy"><img src="https://img.shields.io/badge/node->=%2020.0.0-93450a.svg?style=for-the-badge&logo=node.js" alt="Node >= 20.0.0" /></a>
+  <a href="#minimum-toolchain-policy"><img src="https://img.shields.io/badge/node->=%2022.0.0-93450a.svg?style=for-the-badge&logo=node.js" alt="Node >= 22.0.0" /></a>
 </p>
 
 ---
@@ -84,7 +84,7 @@ make            # check + test
 
 ## Requirements
 
-- **Node.js 20.0.0 or newer.** Declared in `engines.node` and proved on every push: the CI matrix runs Node 20, 22, 24 on Linux, macOS and Windows, and fails if the matrix floor and `engines.node` disagree.
+- **Node.js 22.0.0 or newer.** Declared in `engines.node` and proved on every push: the CI matrix runs Node 22, 24 on Linux, macOS and Windows, and fails if the matrix floor and `engines.node` disagree.
 - **npm 9.0.0 or newer** (or modern pnpm / yarn / bun).
 - **Module systems.** Full native support for ECMAScript Modules (ESM) and CommonJS (CJS).
 - **TypeScript 5.0 or newer** (optional, recommended for type checking).
@@ -268,7 +268,7 @@ Signing key `Sebastien Rousseau <sebastian.rousseau@gmail.com>`, ed25519, expire
 
 ## Minimum-toolchain policy
 
-The minimum supported Node.js version is **20.0.0**. The floor may raise only when:
+The minimum supported Node.js version is **22.0.0**. The floor may raise only when:
 
 1.  An upstream LTS version reaches official End-of-Life (EOL).
 1.  The reason is explicitly recorded in `CHANGELOG.md` and `DEVELOPMENT.md`.
