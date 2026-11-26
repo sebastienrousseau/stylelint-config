@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.10] - 2026-11-26
+
+### Fixed
+
+- The publish and security workflows run on Node 22. 0.0.9 raised
+  `engines.node` to `>=22` for Stylelint 18, but its publish ran the
+  tests on Node 20, where they failed (`Set.prototype.union` is Node
+  22+), so 0.0.9 was never published to npm. 0.0.10 is the first npm
+  release since 0.0.7: it requires Node 22 or newer (0.0.7 allowed 20)
+  and is tested against Stylelint 18; the `stylelint` peer range is
+  still `>=16.0.0`.
+
+### Changed
+
+- Requires `@sebastienrousseau/config-kit` 0.0.10, whose tarball checks
+  read npm 12's `npm pack --json` output.
+- The shared workflows are pinned to config `2e0b4fd`, whose OSV scan
+  honours `.github/security-exceptions.json`.
+- Development dependencies: `stylelint` 18.1.0 and
+  `stylelint-config-standard` 41.1.0, and the GitHub Actions group.
+
 ## [0.0.9] - 2026-11-16
 
 ### Changed
