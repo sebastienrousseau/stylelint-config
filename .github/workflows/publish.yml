@@ -20,7 +20,7 @@ permissions:
 jobs:
   publish:
     name: Release
-    uses: sebastienrousseau/config/.github/workflows/reusable-publish.yml@b565e0d215295fe5d67160bb3f5cab78d72abae8 # main
+    uses: sebastienrousseau/config/.github/workflows/reusable-publish.yml@2e0b4fdbbd27b37957755422c2a191fabf6be43a # main
     permissions:
       contents: read
       id-token: write
