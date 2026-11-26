@@ -6,7 +6,7 @@
 class StylelintConfig < Formula
   desc "Shareable Stylelint CSS/SCSS linting configuration rules"
   homepage "https://github.com/sebastienrousseau/stylelint-config"
-  url "https://registry.npmjs.org/@sebastienrousseau/stylelint-config/-/stylelint-config-0.0.9.tgz"
+  url "https://registry.npmjs.org/@sebastienrousseau/stylelint-config/-/stylelint-config-0.0.10.tgz"
   license any_of: ["Apache-2.0", "MIT"]
 
   depends_on "node"

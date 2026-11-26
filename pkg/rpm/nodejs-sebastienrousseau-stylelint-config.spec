@@ -3,7 +3,7 @@
 %global sitelib       %{_prefix}/lib/node_modules
 
 Name:           nodejs-sebastienrousseau-stylelint-config
-Version:        0.0.9
+Version:        0.0.10
 Release:        1%{?dist}
 Summary:        Shareable Stylelint CSS/SCSS linting configuration rules
 
@@ -40,6 +40,9 @@ install -pm 0644 package.json %{buildroot}%{sitelib}/%{npm_scope}/%{npm_bare}/
 %{sitelib}/%{npm_scope}/%{npm_bare}/
 
 %changelog
+* Thu Nov 26 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com> - 0.0.10-1
+- Release 0.0.10.
+
 * Mon Nov 16 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com> - 0.0.9-1
 - Release 0.0.9.
 

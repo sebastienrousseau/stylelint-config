@@ -1,6 +1,6 @@
 # Maintainer: Sebastien Rousseau <sebastian.rousseau@gmail.com>
 pkgname=nodejs-sebastienrousseau-stylelint-config
-pkgver=0.0.9
+pkgver=0.0.10
 pkgrel=1
 pkgdesc="Shareable Stylelint CSS/SCSS linting configuration rules"
 arch=('any')

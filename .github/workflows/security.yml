@@ -17,10 +17,13 @@ permissions:
 jobs:
   security:
     name: Supply chain
-    uses: sebastienrousseau/config/.github/workflows/reusable-security.yml@b565e0d215295fe5d67160bb3f5cab78d72abae8 # main (config #39, audit exceptions)
+    uses: sebastienrousseau/config/.github/workflows/reusable-security.yml@2e0b4fdbbd27b37957755422c2a191fabf6be43a # main (config #39, audit exceptions)
     permissions:
       contents: read
       security-events: write
       pull-requests: write
     with:
-      node-version: '20'
+      # package.json requires Node >=22 (Stylelint 18). On 20 the tests fail
+      # with `deprecatedHtmlTypeSelectors.union is not a function`, which
+      # stopped the 0.0.9 publish.
+      node-version: '22'

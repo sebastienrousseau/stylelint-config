@@ -12,7 +12,7 @@
       packages = forAll (pkgs: {
         default = pkgs.stdenv.mkDerivation {
           pname = "node-sebastienrousseau-stylelint-config";
-          version = "0.0.9";
+          version = "0.0.10";
           src = ../..;
 
           # Inert data plus a loader: nothing to build, nothing to strip.
