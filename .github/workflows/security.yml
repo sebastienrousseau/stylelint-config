@@ -23,4 +23,7 @@ jobs:
       security-events: write
       pull-requests: write
     with:
-      node-version: '20'
+      # package.json requires Node >=22 (Stylelint 18). On 20 the tests fail
+      # with `deprecatedHtmlTypeSelectors.union is not a function`, which
+      # stopped the 0.0.9 publish.
+      node-version: '22'

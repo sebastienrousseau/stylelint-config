@@ -26,6 +26,9 @@ jobs:
       id-token: write
       packages: write
     with:
-      node-version: '20'
+      # package.json requires Node >=22 (Stylelint 18). On 20 the tests fail
+      # with `deprecatedHtmlTypeSelectors.union is not a function`, which
+      # stopped the 0.0.9 publish.
+      node-version: '22'
       dry-run: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
     secrets: inherit
